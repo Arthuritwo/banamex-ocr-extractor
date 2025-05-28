@@ -81,9 +81,9 @@ Muestra los resultados en consola con un formato limpio y visual (emojis) y perm
 
 
 📁 Archivo exportado como 'transacciones.csv'
+```
 
-
-⚙️ Requisitos
+## ⚙️ Requisitos
 
 
 Instala las dependencias:
@@ -101,7 +101,7 @@ Además:
 	•	El archivo PDF debe estar en la misma carpeta que el script.
 
 
-🧠 ¿Cómo funciona?
+## 🧠 ¿Cómo funciona?
 
 
 	1.	Convierte el PDF a imágenes.
@@ -115,7 +115,7 @@ Además:
 	5.	Muestra en consola y pregunta si deseas exportar CSV.
 
 
-📁 Estructura de salida CSV
+## 📁 Estructura de salida CSV
 
 
 Tipo,Fecha,Concepto,Montos
@@ -125,7 +125,7 @@ Abono,10ABR,DEPÓSITO NÓMINA EMPRESA S.A. DE C.V.,"$7,850.00"
 Cargo,11ABR,TELMEX CARGO DOMICILIADO,"$499.00"
 
 
-✏️ Personalización
+## ✏️ Personalización
 
 
 Puedes editar estas listas en el script para agregar más coincidencias:
@@ -136,16 +136,16 @@ abonos_clave = ["nómina", "deposito nómina", "depósito nómina"]
 cargos_clave = ["domiciliado", "cargo automático", "spotify", "telmex", "izzy", "netflix"]
 
 
-📄 Licencia
+## 📄 Licencia
 
 
 Este proyecto es de código abierto y se distribuye bajo la licencia MIT.
 
 
-✉️ Autor
+## ✉️ Autor
 
 
-Desarrollado por Arturo 🧠💻
+Desarrollado por Arturo R. 🧠💻
 
 
 ---
